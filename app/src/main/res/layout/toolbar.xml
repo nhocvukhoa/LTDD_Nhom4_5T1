@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    android:background="@color/colorprimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/idsearch"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_borderbg"
+            android:drawableStart="@drawable/ic_search"
+            android:hint="Search"
+            android:paddingLeft="20dp"
+            android:textSize="24dp"
+            android:paddingStart="10dp"
+            android:textColorHint="#000000"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/listprovince"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đà Nẵng"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:drawablePadding="10dp"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
